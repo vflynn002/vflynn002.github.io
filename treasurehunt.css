@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+}
+h1 {
+  color: #e8b82a;
+  font-family: 'amatic sc', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+#topimage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#rules {
+  color: #fff1b0;
+  font-family: 'amatic sc', cursive;
+  font-size: 30px;
+  text-align: center;
+  list-style-position: inside;
+  margin: 100px;
+
+}
+#wholetable {
+  display: flex;
+}
+#bottominfo {
+  color: #fff1b0;
+  text-align: center;
+  font-family: 'amatic sc', cursive;
+  font-size: 30px;
+}
+#hp {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+a:hover{
+  color: #fff1b0;
+}
+a{
+  text-decoration: underline;
+  color: white;
+}
+
+
+table {
+  margin: auto;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hogwarts_model_studio_tour.jpg/320px-Hogwarts_model_studio_tour.jpg");
+  background-size: cover;
+}
+
+td {
+  /* border: 3px solid white; */
+  outline: 3px solid white;
+  background-color: rgba(255, 255, 255, .3);
+  /* padding-top: 3px;*/
+  /* padding-bottom: 3px; */
+  /* margin: 0px; */
+  margin-top: 5px;
+  padding:0;
+}
+
+td:hover {
+  box-shadow: 7px 7px #000343;
+  background-color: rgba(255, 255, 255, .8);
+}
